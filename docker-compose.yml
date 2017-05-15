@@ -1,0 +1,7 @@
+phinx:
+    build: .
+    container_name: phinx
+    environment:
+        phinx_command: command_for_phinx
+    volumes:
+        - path/to/folder/with/phinx/files/:/phinx
